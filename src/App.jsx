@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      {/* <UseState /> */}
-      <UseEffect />
+      <UseState />
+      {/* <UseEffect /> */}
     </>
   )
 }
