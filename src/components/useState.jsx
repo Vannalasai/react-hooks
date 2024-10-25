@@ -14,12 +14,19 @@ function UseState() {
       setIsFirstName(!isFirstName)
     }
 
+    const increaseCountValue = () => {
+      setCount(count => count + 1)
+      setCount(count => count + 1)
+      setCount(count => count + 1)
+      setCount(count => count + 1)
+    }
+
     return(
       <>
         <h3>My favorite color is {name}!</h3>
         <button onClick={changeName}>{name === "Black" ? "Red" : "Black"}</button>
         <p>Count : {count}</p>
-        <button onClick={() => setCount(count + 4)}>Increase by 4</button>
+        <button onClick={increaseCountValue}>Increase by 4</button>
       </>
     )
 }
