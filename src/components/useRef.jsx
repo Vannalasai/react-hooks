@@ -6,13 +6,14 @@ function UseRef(){
   const count = useRef(0)
   const inputValue = useRef("")
 
+  const btnClicked = () => {
+    console.log(inputValue.current)
+    inputValue.current.style.background = "green";
+  }
+
   useEffect(() => {
     count.current = count.current + 1;
   })
-
-  const btnClicked = () => {
-    console.log(inputValue.current)
-  }
 
   return(
     <>
