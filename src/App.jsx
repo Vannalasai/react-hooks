@@ -2,6 +2,7 @@ import UseState from './components/useState'
 import UseEffect from './components/useEffect'
 import UseRef from './components/useRef'
 import UseMemo from './components/useMemo'
+import UseCallback from './components/UseCallback'
 import './App.css'
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
       {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <UseCallback />
     </>
   )
 }
 
-export default App
+export default App;
