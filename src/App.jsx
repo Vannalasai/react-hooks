@@ -7,6 +7,7 @@ import './App.css'
 import Profile from './components/usecontext/Profile'
 import Contact from './components/usecontext/contact'
 import Footer from './components/usecontext/footer'
+import UseReducer from './components/UseReducer'
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
       {/* <UseRef /> */}
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
-      <Profile />
-      <Footer />
+      {/* <Profile /> */}
+      {/* <Footer /> */}
+      <UseReducer />
     </>
   )
 }
