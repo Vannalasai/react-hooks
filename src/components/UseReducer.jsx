@@ -12,6 +12,9 @@ const UseReducer = () => {
       case 'decrease' : {
         return {count: state.count - 1}
       }
+      case 'input' : {
+        return {count: action.payload}
+      }
       default : {
         return state
       }
@@ -25,6 +28,9 @@ const UseReducer = () => {
       <button onClick={()=>dispatch({type: 'decrease'})}>Decrease!</button>
       <h2>{state.count}</h2>
       <button onClick={()=>dispatch({type: 'increase'})}>Increase!</button>
+      <br />
+      <input value={state.count} type="number" 
+      onChange={(e)=> dispatch({type: 'input', payload:Number(e.target.value)})} />
     </>
   )
 }
