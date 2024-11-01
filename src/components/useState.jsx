@@ -17,9 +17,6 @@ function UseState() {
 
     const increaseCountValue = () => {
       setCount(count => count + 1)
-      setCount(count => count + 1)
-      setCount(count => count + 1)
-      setCount(count => count + 1)
     }
 
     const changeInputValue = (event) => {
@@ -32,7 +29,7 @@ function UseState() {
         <h3>My favorite color is {name}!</h3>
         <button onClick={changeName}>{name === "Black" ? "Red" : "Black"}</button>
         <p>Count : {count}</p>
-        <button onClick={increaseCountValue}>Increase by 4</button>
+        <button onClick={increaseCountValue}>Increase</button>
 
         <h3>React State Input Name: {value}</h3>
         <input type="text" onChange={() => changeInputValue(event)}/>
