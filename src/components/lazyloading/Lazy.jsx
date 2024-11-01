@@ -5,13 +5,13 @@ const MarkdownPreview = lazy(() => delayForDemo(import('./MarkdownPreview')));
 
 export default function MarkdownEditor() {
   const [showPreview, setShowPreview] = useState(false);
-  const [markdown, setMarkdown] = useState('Hello, **world**!');
+  const [markdown, setMarkdown] = useState('Hello, **Sai Vannala**!');
   return (
     <>
       <textarea value={markdown} onChange={e => setMarkdown(e.target.value)} />
       <label>
         <input type="checkbox" checked={showPreview} onChange={e => setShowPreview(e.target.checked)} />
-        Show preview
+        Show Preview
       </label>
       <hr />
       {showPreview && (
