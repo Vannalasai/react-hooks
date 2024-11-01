@@ -8,6 +8,7 @@ import Profile from './components/usecontext/Profile'
 import Contact from './components/usecontext/contact'
 import Footer from './components/usecontext/footer'
 import UseReducer from './components/UseReducer'
+import Lazy from './components/lazyloading/lazy'
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
       {/* <UseCallback /> */}
       {/* <Profile /> */}
       {/* <Footer /> */}
-      <UseReducer />
+      {/* <UseReducer /> */}
+      <Lazy />
     </>
   )
 }
