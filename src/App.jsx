@@ -18,11 +18,11 @@ function App() {
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
       {/* <UseMemo /> */}
-      {/* <UseCallback /> */}
+      <UseCallback />
       {/* <Profile /> */}
       {/* <Footer /> */}
       {/* <UseReducer /> */}
-      <Lazy />
+      {/* <Lazy /> */}
     </>
   )
 }
