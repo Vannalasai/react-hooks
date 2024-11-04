@@ -14,13 +14,13 @@ function App() {
 
   return (
     <>
-      <UseState />
+      {/* <UseState /> */}
       {/* <UseEffect /> */}
       {/* <UseRef /> */}
       {/* <UseMemo /> */}
       {/* <UseCallback /> */}
-      {/* <Profile /> */}
-      {/* <Footer /> */}
+      <Profile />
+      <Footer />
       {/* <UseReducer /> */}
       {/* <Lazy /> */}
     </>
