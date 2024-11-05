@@ -20,7 +20,7 @@ function UseState() {
     }
 
     const changeInputValue = (event) => {
-        // console.log(event.target.value)
+        console.log(event.target.value)
         setValue(event.target.value)
     }
 
